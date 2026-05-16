@@ -13,11 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.servicio_laboratorio.ms_laboratorio.dto.ExamenRequestDTO;
 import com.servicio_laboratorio.ms_laboratorio.dto.ExamenResponseDTO;
-import com.servicio_laboratorio.ms_laboratorio.dto.OrdenRequestDTO;
-import com.servicio_laboratorio.ms_laboratorio.dto.OrdenResponseDTO;
 import com.servicio_laboratorio.ms_laboratorio.service.ExamenService;
-import com.servicio_laboratorio.ms_laboratorio.service.OrdenService;
-
 import jakarta.validation.Valid;
 
 @RestController
